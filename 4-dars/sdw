@@ -1,0 +1,58 @@
+                                                       If, Else, Else If
+
+    If --> bu shart operatori bolib ifda agar berilgan shart rost bolsa yani truega teng bolsa ishlaydi hozir unga syntax tuzamn
+       --> syntax // if (shart yoziladi) {code}
+           -------------------------------------
+           let yosh = 20
+           if (yosh > 18) {
+      -->     console.log("Siz voyaga yetgansiz!");
+           }
+           -------------------------------------
+           let mehmon = "erkak" jins = "ayol"
+           if (mehmon == "erkak"){
+           console.log("ongdagi zalga kiring")
+           }else{
+           console.log("chapdagi zalga kiring")
+           }
+    else --> bu esa agar ifda berilgan shart falsega teng bolib ishlamay qolsa unda elseda berilgan shart ishlaydi.Ahag ifdagi shart
+             rost bosla yani truega teng bosla elsedagi qiymat ishlamaydi
+         --> syntax // else{code}
+           -------------------------------------
+           let yosh = 20
+           if (yosh >= 18) {
+              console.log("Kirish mumkin");
+      -->  } else {
+              console.log("Kirish mumkin emas");
+           }
+           -------------------------------------
+           let parol = 20
+           if (parol > 8){
+              console.log("Parol to'g'ri")
+           }
+           else{
+              console.log("Parol natogri")
+           }
+
+    else if --> else if esa bir nechta shart bajarsa oshanda ishlatiladi.har bir if alohida guruh deb hisoblanadi else if kop marta
+                yozilsa birinchi true chiqqan shart bajariladi kyn toxtaydi pastdagi shartlarni bajarmaydi
+
+         --> syntax // else if {}
+
+         let baho = 4;
+
+         if (baho === 5) {
+            console.log("A'lo");
+         } else if (baho === 4) {
+            console.log("Yaxshi");
+         } else if (baho === 3) {
+            console.log("Qoniqarli");
+         } else {
+            console.log("Yomon");
+         }
+          
+                                                                          Ternary operator
+                                                                          
+     Ternary operator --> bu if da tuzilgan shartlarni qisqartirish uchun ishlatiladi.
+     
+     syntax --> // (shart) ? code : code 
+     
